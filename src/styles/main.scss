@@ -1,3 +1,7 @@
+@import 'styles';
+@import 'variables';
+
 body {
-    background-color: blue;
+    background-color: $gold;
+    @include default-font(40px);
   }
